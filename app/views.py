@@ -38,7 +38,7 @@ def home(request):
             palCode = "".join(matrizss)
 
             data['mensaje'] = palCode
-
+            
         if formu2.is_valid():
             matrizss = []
             pala2 = formu2.cleaned_data.get("mensaje")
