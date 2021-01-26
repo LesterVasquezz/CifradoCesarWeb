@@ -14,4 +14,4 @@ Para poder instalar el proyecto de forma local tiene que seguir los siguientes p
 * Instalar lo que se especifica en el archivo requirements.txt, puede usar el comando **pip install -r requirements.txt**
 * Una vez instalados los requerimientos, ejecute el comando **python manage.py runserver**
 
-Enlace a pagina alojada en heroku https://www.siass.unam.mx/
+Enlace a pagina alojada en heroku https://cifradowebc.herokuapp.com/
