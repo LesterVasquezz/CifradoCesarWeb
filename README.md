@@ -11,5 +11,5 @@ Para poder instalar el proyecto de forma local tiene que seguir los siguientes p
 
 * Tener instalado python en su version 3.7.3 como minimo 
 * Descargar o clonar el repositorio 
-* Instalar lo que se especifica en el archivo requirements.txt, puede usar el comando ***pip install -r requirements.txt ***
-* Una vez instalados los requerimientos, ejecute el comando ***python manage.py runserver ***
+* Instalar lo que se especifica en el archivo requirements.txt, puede usar el comando *** pip install -r requirements.txt ***
+* Una vez instalados los requerimientos, ejecute el comando *** python manage.py runserver ***
