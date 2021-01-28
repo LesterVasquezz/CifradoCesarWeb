@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cifrado Cesar </title>
 
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -38,7 +39,7 @@
 <body class="p-5 text-center bg-image" style="background-image: url('https://images4.alphacoders.com/407/40726.jpg')">
     <div class="container">
         <br><br><br><br>
-        <div class="col-12 col-md-6 offset-md-3">
+        <div class="col-12 col-md-7 offset-md-3">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card">
@@ -51,6 +52,8 @@
 
                                 <br><br>
                                 <div class="p-3 mb-2 bg-light text-dark">
+                                    {{pala}} <br>
+                                    {{llave}} <br>
                                     {{mensaje}}
                                 </div>
                                 <div class=" float-right">
@@ -69,7 +72,9 @@
                             <form class="row g-3" method="POST">
                                 {%csrf_token%}
                                 {{form2 | crispy}}
-                                <div class="p-3 mb-2 bg-light text-dark">
+                                <div class="p-3 mb-2 bg-light text-dark ">
+                                    {{mens}} <br>
+                                    {{clave}} <br>
                                     {{mensaje2}}
                                 </div>
                                 <div class=" float-right">
@@ -84,9 +89,10 @@
             </div><!-- fin main row-->
         </div>
         <br><br>
-        <p style="color:#FFFFFF"><i>*Solo se cifran caracteres del alfabeto latino, incluyendo la Ñ, los caracteres
-                no-alfabeticos no seran cifrados</i></p>
-
+        <p style="color:#FFFFFF"><i>*Solo se cifran caracteres del alfabeto latino, es decir ,de la A-Z incluyendo la
+                Ñ.</i></p>
+        <p style="color:#FFFFFF"><i>*Los caracteres especiales como espacios, acentos, comas, puntos, etc no serán
+                cifrados .</i></p>
     </div> <!-- fin container-->
 
 </body>

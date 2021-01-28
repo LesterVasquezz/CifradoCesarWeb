@@ -1,12 +1,6 @@
 from django.shortcuts import render
 from .forms import encriptarFor, descriptarFor
 
-# Create your views here.
-
-# def home(request):
-# return render(request, 'app/home.html')
-
-
 def home(request):
     data = {
         'formu': encriptarFor(),
@@ -36,8 +30,9 @@ def home(request):
                     matrizss.append(palabra[p])
 
             palCode = "".join(matrizss)
-
-            data['mensaje'] = palCode
+            data['pala'] = "Mensaje: " + palabra
+            data['llave'] = "Clave: " + str(llave)
+            data['mensaje'] = "Mensaje Cifrado: " +palCode
             
         if formu2.is_valid():
             matrizss = []
@@ -57,7 +52,8 @@ def home(request):
 
 
             palCode2 = "".join(matrizss)
-
-            data['mensaje2'] = palCode2
+            data['mens'] = "Mensaje cifrado: " + mensaje
+            data['clave'] = "Clave: " + str(clave)
+            data['mensaje2'] ="Mensaje: " + palCode2
 
     return render(request, 'app/home.html', data)
