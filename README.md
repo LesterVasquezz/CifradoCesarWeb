@@ -8,6 +8,7 @@ La pagina dispone de dos formularios en los cuales el usuario puede ingresar una
 <br>
 <div align="center"><img src="img.png"  width="800"/></div>
 <br>
+
 ## Instalacion local 
 Para poder instalar el proyecto de forma local tiene que seguir los siguientes pasos
 
