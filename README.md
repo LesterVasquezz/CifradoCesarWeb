@@ -5,7 +5,9 @@ En criptografía, el cifrado César, también conocido como cifrado por desplaza
 ## Funcionamiento de la pagina
 
 La pagina dispone de dos formularios en los cuales el usuario puede ingresar una cadena de caracteres y una clave numerica (la que sea de su agrado). El boton de limpiar solo limpia los campos del formulario. 
-
+<br>
+<div align="center"><img src="img.png"  width="800"/></div>
+<br>
 ## Instalacion local 
 Para poder instalar el proyecto de forma local tiene que seguir los siguientes pasos
 
